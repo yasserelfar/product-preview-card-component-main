@@ -1,0 +1,125 @@
+body{
+    background-color: #f3eae3;
+    
+}
+.container{
+    
+    border-radius: 30px;
+        background-color: white;
+        width: 35%;
+        height: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        gap: 3%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+img{
+width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.tags{
+    font-size: 90%;
+    color: #7d7d7d;
+    font-family: 'Monospace';
+    letter-spacing: 5px;
+    text-transform:uppercase ;
+}
+.text{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 1%;
+        margin-right: 3%;
+        align-items: flex-start;
+        align-content: space-between;
+        justify-content: space-evenly;
+        position: relative;
+}
+.title{
+    font-weight: bolder;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 295%;
+}
+.description{
+    color:#7d7d7d;
+    font-size: 130%;
+    margin-right: 10%;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+    width: 100%;
+}
+.new{
+font-family: "Georgia", serif;
+    font-weight: bold;
+    color: #004d00;
+    font-size: 24px;
+    padding: 5px;
+
+}
+.old{
+    margin-top:10px ;
+    text-decoration: line-through;
+    color: #7d7d7d;
+    font-family: 'Monospace';
+}
+button{
+    
+    background-color:#1e4738 ;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 90%;
+    margin: 5px;
+    padding: 6%;
+}
+i{
+    margin-right:5px ;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+                padding: 6% 0 8%;
+            height: 100%;
+                width: 90%;
+                flex-direction: column;
+                background-color: white;
+            }
+    .img{
+        
+        width: 100%;
+        height: 50%;
+    }
+    img{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .text{
+    margin: 0 10%;
+    padding: 0 13% 0 19%;
+    }
+    h1{
+        font-size: 250%;
+    }
+    .direction{
+        font-size: 100%;
+    }
+}
